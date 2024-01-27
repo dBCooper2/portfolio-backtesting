@@ -2,12 +2,12 @@
 
 This Project seeks to build a successful portfolio using financial analysis tools and benchmarking, and will be a place to practice backtesting on strategies
 
-The project will involve creating 10 portfolios from a budget of $100,000 each. These Portfolio's will then be benchmarked using CAPM and the Fama-French Model to predict their expected returns. Portfolio data will be accessed using Yahoo Finance using the yfinance package and the [Yahoo Finance Scraper]() I am writing if it is necessary.The rates needed to run these analyses will be pulled from Dr. [Kenneth French's Fama-French Dataset](), which at the time of writing this only contains data up to 11-30-2023. After the analyses are run, the performance of each portfolio from the end date of the French Dataset to today will be calculated and compared using performance measures outlined in the [benchmarking notebook]().
+The project will involve creating 5 portfolios from a budget of $100,000 each. These portfolios will then be benchmarked using CAPM and the Fama-French Model to predict their expected returns. Portfolio data will be accessed using Yahoo Finance using the yfinance package and the [Yahoo Finance Scraper](https://github.com/dBCooper2/financial-modeling/blob/main/notebooks/data_processing/yahoo_finance_scraper.ipynb) I am writing if it is necessary.The rates needed to run these analyses will be pulled from Dr. [Kenneth French's Fama-French Dataset](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html), which at the time of writing this only contains data up to 11-30-2023. After the analyses are run, the performance of each portfolio from the end date of the French Dataset to today will be calculated and compared using performance measures outlined in the [benchmarking notebook](https://github.com/dBCooper2/financial-modeling/blob/main/notebooks/data_processing/yahoo_finance_scraper.ipynb).
 
 ## Deliverables
 
 - Notebooks:
-  - 10 Sample Portfolios
+  - 5 Sample Portfolios
   - CAPM Analysis of every Portfolio
   - Fama-French Analysis of Every Portfolio
   - Visualizing The Results of each Benchmark
@@ -35,18 +35,10 @@ The project will involve creating 10 portfolios from a budget of $100,000 each. 
     - data
       - csvs/excel/pickle files for financial data stored here
 
-
-
-### vvv Ideas Board for throwing Random Notes vvv
-
-- Create a Portfolio to test, then...
-- Run it through the CAPM and FF models, Graph Regression Lines Separately and Together
-- Create Rolling Beta's, Alpha's and Graph them
-- Create Rolling Treynor, Sharpe, Jensen, Tracking Error, Information, and Sortino Ratios, Graph each separately and each combination together
-- Create a Writeup outlining your findings and how to adjust the portfolio
-- Create the Adjusted Portfolio , Store the Portfolios in SQL/CSV
-- Track the Portfolios over the next 30 days
-
 ### Resources
 
-<https://www.portfoliovisualizer.com/backtest-portfolio>
+[LaTeX Symbols](https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols)
+
+[LaTeX Commands](https://artofproblemsolving.com/wiki/index.php/LaTeX:Commands#Subscripts_and_Superscripts)
+
+[Creating a Table of Contents in Jupyter](https://medium.com/@ahmetekiz/creating-table-of-contents-in-jupyter-notebook-52a7c696817f#f730)

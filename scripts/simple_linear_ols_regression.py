@@ -1,6 +1,6 @@
 import pandas as pd
 
-class OLS_Regression:
+class SL_OLS_Regression:
     def __init__(self, df: pd.DataFrame, iterations: int, learning_rate: float) -> None:
         self.df = df
         self.i = iterations
